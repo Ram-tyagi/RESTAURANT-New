@@ -23,7 +23,7 @@ const cartReducer = (state,action) => {
             updatedItems = [...state.items]
             updatedItems[existingCartItemIndex] = updatedItem
         }
-        else{
+        else{                                       // agar pahli bar add kiya hai to
             updatedItems = state.items.concat(action.item)
         }
         
