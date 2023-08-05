@@ -1,4 +1,4 @@
-import react,{useState} from 'react';
+import {useState} from 'react';
 import CartProvider from './Store/CartProvider';
 import Cart from './Components/Cart/Cart';
 import Meals from './Components/Meals/Meals';
